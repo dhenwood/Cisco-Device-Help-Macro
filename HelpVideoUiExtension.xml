@@ -1,0 +1,62 @@
+<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>3</Order>
+    <PanelId>panel_3</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Help</Icon>
+    <Color>#D43B52</Color>
+    <Name>Need help</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Having trouble...</Name>
+      <Row>
+        <Name>Joining meetings</Name>
+        <Widget>
+          <WidgetId>helpWebex</WidgetId>
+          <Name>Webex</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>helpTeams</WidgetId>
+          <Name>Microsoft Teams</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>helpZoom</WidgetId>
+          <Name>Zoom</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>helpGoogle</WidgetId>
+          <Name>Google Meet</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name/>
+      </Row>
+      <Row>
+        <Name>Sharing content</Name>
+        <Widget>
+          <WidgetId>helpWired</WidgetId>
+          <Name>Wired</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>helpWireless</WidgetId>
+          <Name>Wireless</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options>hideRowNames=0</Options>
+    </Page>
+  </Panel>
+</Extensions>
